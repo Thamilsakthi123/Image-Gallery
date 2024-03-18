@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(to right, red, blue);
+
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+img {
+    height: 250px;
+    width: 250px;
+    margin-right: 12px;
+    margin-left: 19px;
+    margin-top: 12px;
+    border: 2px solid white;
+}
+
+img:hover {
+    transform: rotateX(180deg);
+}
+
+.para {
+    width: 250px;
+    color: white;
+    font-size: 21px;
+    margin-right: 12px;
+    margin-left: 19px;
+}
+.footer{
+display: flex;
+justify-content: center;
+color: white;
+background-color: black;
+}
